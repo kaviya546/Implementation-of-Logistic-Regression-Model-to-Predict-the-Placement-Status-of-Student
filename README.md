@@ -22,6 +22,7 @@ To write a program to implement the the Logistic Regression Model to Predict the
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: KAVIYA SNEKA M
 RegisterNumber:  212223040091
+/*
 import pandas as pd
 data=pd.read_csv("C:/Users/black/Downloads/Placement_Data.csv")
 data.head()
@@ -59,11 +60,18 @@ from sklearn.metrics import classification_report
 classification_report1=classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
-*/
+
 ```
 
 ## Output:
-![image](https://github.com/kaviya546/Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student/assets/150368823/0329d9dc-985f-4f63-8878-b968c236ebb4)
+
+![image](https://github.com/user-attachments/assets/8f3d932e-ac69-40fc-bd0a-8eb51f71747d)
+
+
+![image](https://github.com/user-attachments/assets/c587504c-0608-4224-8341-ac9c798633da)
+
+
+![image](https://github.com/user-attachments/assets/0bd06e3c-6de2-432b-a9ca-f18614ae7779)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
