@@ -8,14 +8,16 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
-1. Collect and preprocess data and scale numerical features
-
-2.import labelencoder and fit transform data
-
-3.import train test split and logistic regression to train features
-
-4.import and print the classification report 
-
+```
+ Step 1. Start
+ Step 2. Load the California Housing dataset.
+ Step 3. select the first 3 features as input (X) and target variables (Y).
+ Step 4. Split the data into training and testing sets .
+ Step 5. Train a multi-output regression model using Stochastic Gradient Descent (SGD) on 
+ Step 6. Make predictions on the test data, inverse transform the predictions.
+ Step 7. Then Calculate the Mean Squared Error.
+ Step 8. End
+```
 ## Program:
 ```
 /*
